@@ -28,6 +28,7 @@ public class NestedClassDemo {
 		NestedClass.disp obj = new NestedClass.disp();
 		obj.display();
 		
+		// Nested non-static class require instantiation of the outer class
 		NestedClass obj1 = new NestedClass();
 		NestedClass.disp1 obj2 = obj1.new disp1();
 		obj2.display1();

@@ -28,6 +28,7 @@ public class ThrowException {
 		// TODO Auto-generated method stub
 
 		age(17);
+		
 		System.out.println("Rest of the code...");
 		
 	}

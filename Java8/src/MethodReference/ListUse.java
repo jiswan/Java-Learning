@@ -18,6 +18,7 @@ public class ListUse {
 		System.out.println("Using Method Reference ");
 		name.forEach(System.out::println);
 		
+		
 		List<Integer> number = new ArrayList<>();
 		number.add(4);
 		number.add(5);

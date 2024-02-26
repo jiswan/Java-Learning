@@ -1,3 +1,5 @@
+/*
+ * Limit() and Skip() function usage*/
 package Interview;
 
 import java.util.Arrays;
@@ -11,9 +13,9 @@ public class LimitandSkip {
 		System.out.println("List before Limit");
 		numbers.forEach(x->System.out.print(x+" "));
 		System.out.println("\nList After using Limit");
-		numbers.stream().limit(6).forEach(x->System.out.print(x+" "));
+		numbers.stream().limit(6).forEach(x->System.out.print(x+" ")); // Printing the first 6 element from the list
 		System.out.println("\nList After using Limit");
-		numbers.stream().skip(6).forEach(x->System.out.print(x+" "));
+		numbers.stream().skip(6).forEach(x->System.out.print(x+" "));  // Skipping the first 6 element from the list 
 	}
 
 }

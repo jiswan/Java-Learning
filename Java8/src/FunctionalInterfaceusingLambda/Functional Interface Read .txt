@@ -1,0 +1,11 @@
+Functional Interface
+    An interface where there is only one abstract method is called Functional Interface.
+    Its is also known as SAM (single abstract method).
+    @FunctionInterface is the keyword used (its optional)
+    
+It can have static method,default method or method inherited from the object class.
+
+Functional Interface can be implemneted in three different way 
+    1) using Implements
+    2) using anonymous class
+    3) Lambda Functional

@@ -19,5 +19,6 @@ Runtime Exceptio  have different type
     3) IndexOutofBound Exception 
                 1)ArrayIndexoutofBound Exception
                 2)StringIndexoutofBound Exception
-    4) NullPointer exception
-    5) IllegalArgument Exception
+    4) NullPointer exception.
+    5) IllegalArgument Exception.
+            1)NumberFormatException

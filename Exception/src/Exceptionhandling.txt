@@ -1,0 +1,24 @@
+Whaht is Exception ?
+    Its is an event, that occur during the execution of the program.
+    It can distrupt the normal flow of the code
+    It produce an exception object, which contain information about the exception like
+        1) type of exception and message.
+        2) stack trace etc 
+
+Run time system use this exception object and provide which class that create the exception .
+
+Exception are of two type 
+ 1) Runtime/unchecked exception
+ 2) complie time / checked exception 
+
+Runtime Exception 
+This exception occur during the runtime.
+Runtime Exceptio  have different type 
+    1) Classcast Exception
+    2) Arthematic Exception
+    3) IndexOutofBound Exception 
+                1)ArrayIndexoutofBound Exception
+                2)StringIndexoutofBound Exception
+    4) NullPointer exception.
+    5) IllegalArgument Exception.
+            1)NumberFormatException

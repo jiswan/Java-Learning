@@ -1,0 +1,6 @@
+Problem statement: Employee age verification
+Write a Java program to verify that an employee is a legal adult. A function should take an employee's birth year and throw an exception if the age is under 18. This custom exception should be handled gracefully by the main program.
+Input: An employee's birth year, as an integer.
+Output:
+If the employee is 18 or older, the program should print an "Access granted" message.
+If the employee is under 18, it should print an "Access denied" message.

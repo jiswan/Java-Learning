@@ -2,7 +2,7 @@ package ThrowException;
 
 public class ThrowException2 {
 
-	void method1() throws ArithmeticException {
+	void method1()  {
 		throw new ArithmeticException("Calculation error");
 	}
 

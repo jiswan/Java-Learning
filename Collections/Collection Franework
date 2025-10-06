@@ -5,3 +5,5 @@ Collection
 why we need the collection framework ?
     Before jcf, there are array,vector and hash table avaiable,but there is no common interface avaiable.
 and it become difficult to remember the method that we need to use ,thats why collection framework was introduced.
+
+

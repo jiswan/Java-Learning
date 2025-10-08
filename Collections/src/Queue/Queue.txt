@@ -1,0 +1,4 @@
+Queue is an interface, its the child of collection interface.
+Queue follow FIFO, there are exception like priority queue 
+It support all the methods in the collection interface and some other too 
+            like add(),offer(),poll(),remove(),peek(),element().

@@ -1,4 +1,4 @@
-package ComparetoSorting;
+package ComparetoSorting.usingLamda;
 
 import java.util.Arrays;
 

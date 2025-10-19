@@ -12,7 +12,7 @@ public class Vehicle {
         carList.add(new Car("Dodge Charger","v6"));
         carList.add(new Car("Bmw 320i ","B48"));
 
-        Collections.sort(carList,new CarNameSort());                // sorting decending 
+        Collections.sort(carList,new CarNameSort());                // sorting decending order
 
         carList.forEach((Car obj)->System.out.println ("Car Name = "+obj.carName+" Car Engine Type = "+obj.engineType));
 

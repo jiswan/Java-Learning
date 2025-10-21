@@ -2,6 +2,7 @@ package ArrayList.methodsusedin;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class MethodExample {
     public static void main(String[] args) {
@@ -57,12 +58,47 @@ public class MethodExample {
 
     //removeall
     number.forEach((Integer i)-> System.out.print(i));
-     System.out.println("");
+    System.out.println("");
     number.removeAll(number1);
     number.forEach((Integer i)-> System.out.print(i));
-     System.out.println("");
+    System.out.println("");
+    
+    //get
+    System.out.println("The number in index 1 is "+number.get(1));
 
-        
+    // set 
+    number.set(1, 200);
+    number.forEach((Integer a)-> System.out.print(a));
+    System.out.println("");
+
+    //Listiterator
+    ListIterator<Integer> listIterator = number.listIterator();
+
+    //Traverse the list in the forward direction
+    while(listIterator.hasNext())
+    {
+        System.out.println("Element :"+listIterator.next()+" ,Next Index : "+listIterator.nextIndex());
+    }
+    
+    //modeify the element (the last one returned by next())
+    //The cursor is now at the end. The last returned element was the Integer object for 5
+    listIterator.set(500);
+    System.out.println("\nModified List after setting 5 to 500: "+number);
+
+    //Add a new element to the list
+    // Autoboxing converts the primitive int 50 to an Integer object
+    listIterator.add(50);
+    System.out.println("\nModified List after adding 50 : "+number);
+
+    //traverse the list in the backward direction
+    while(listIterator.hasPrevious())
+    {
+        System.out.println("Element :"+listIterator.previous()+",Previous Index :"+listIterator.previousIndex());
+    }
+
+    // Remove an element
+    listIterator.remove();
+    System.out.println("\nModified List after adding 50 : "+number);
     }
 
    

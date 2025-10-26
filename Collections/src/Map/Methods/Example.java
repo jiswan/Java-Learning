@@ -38,7 +38,8 @@ public class Example {
 
         
         studentName.putIfAbsent(null, "Name of Student");                   // didnt replace the null key 
-        studentName.putIfAbsent(0, "Muhammed Jiswan");                     // null value replace with this value 
+        studentName.putIfAbsent(0, "Muhammed Jiswan");
+        studentName.putIfAbsent(4, "aisal");                     // null value replace with this value 
          for(Map.Entry<Integer,String> name : studentName.entrySet())               // entryset()
         {
             Integer studentKey = name.getKey();
@@ -52,6 +53,36 @@ public class Example {
             }
             
         }
+        //get
+        System.out.println("Collection value  get(1) "+studentName.get(1));
+        
+        //getordefault
+        System.out.println("get(8) "+studentName.getOrDefault(8, "default value"));
+        
+        //remove
+        studentName.remove(3);                                       //remove key 3
+        for(Map.Entry<Integer,String> name : studentName.entrySet())               // entryset()
+        {
+            Integer studentKey = name.getKey();
+            String studentValue = name.getValue();
+            if ( studentKey == null) {                                  // if the key is null 
+
+                System.out.println("key is Null Value is "+studentValue);
+            } else {
+                System.out.println("key is "+studentKey+"    Value is "+studentValue);
+                
+            }
+            
+        }
+
+        //keyset
+        for(Integer Key : studentName.keySet())
+        System.out.println("key is "+Key);
+
+        //Value
+        for(String Values :studentName.values())
+        System.out.println("Value is "+Values);
+        
         
 
 

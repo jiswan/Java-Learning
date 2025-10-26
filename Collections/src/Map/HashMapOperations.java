@@ -19,7 +19,7 @@ public class HashMapOperations {
 		number.put("Four", 4);
 		number.put("Five", 5);
 		
-		System.out.println("Aceess the Key in Map");
+		System.out.println("Aceessing  the Key in Map");
 		for(String i : number.keySet())
 		{
 			System.out.println(i);

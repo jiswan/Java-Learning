@@ -26,6 +26,8 @@ public class HashMapImplementation {
 		
 		//Access entries of the map
 		System.out.print("Entries :"+number.entrySet());
+
+		
 	}
 
 }
